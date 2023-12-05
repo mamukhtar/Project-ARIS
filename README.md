@@ -52,7 +52,7 @@ Feel free to explore and utilize these programs according to your project requir
 Enjoy working with the system!
 
 -*Maryam Aminu Mukhtar (CE) Team Lead, 
-Oussama Ourich (EE) Co-Team Lead,
+Oussama Ourich (EE),
 Felice Gabardi (EE),
 Kalvin Fonseca (EE),
 /Team 4*
