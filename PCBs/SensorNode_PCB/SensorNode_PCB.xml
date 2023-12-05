@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/maryam/Desktop/SensorNode_PCB/SensorNode_PCB.kicad_sch</source>
+    <date>Monday, December 05, 2022 at 12:03:34 AM</date>
+    <tool>Eeschema (6.0.2-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Sensor Node Schematic </title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SensorNode_PCB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Accelerometer1">
+      <value>LSM6DSOX</value>
+      <footprint>My_footprints_Library:LSM6DSOX</footprint>
+      <libsource lib="My Schematic library" part="LSM6DSOX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d3e09fb-d60f-46a8-9de8-581074a84bcb</tstamps>
+    </comp>
+    <comp ref="BodyT1">
+      <value>LM35_Port</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="My Schematic library" part="LM35_Port" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>103e99fd-a310-45d7-add4-18c60bcde50b</tstamps>
+    </comp>
+    <comp ref="FluidL1">
+      <value>eTape_Port</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="My Schematic library" part="eTape_Port" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c75002c-88fc-4350-bfea-a0ee096fbd48</tstamps>
+    </comp>
+    <comp ref="GPS1">
+      <value>PA1616S</value>
+      <footprint>My_footprints_Library:PA1616S</footprint>
+      <libsource lib="My Schematic library" part="PA1616S" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f954ae7-1d58-4cc6-a70c-eba9da6f3dd2</tstamps>
+    </comp>
+    <comp ref="Pressure1">
+      <value>P_trans_port</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="My Schematic library" part="P_trans_port" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc8bcdcf-e53a-4d10-ad11-fd2fa256e3cf</tstamps>
+    </comp>
+    <comp ref="Pulse1">
+      <value>SEN-11574_Port</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="My Schematic library" part="SEN-11574_Port" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d5bfe3a-6f55-4b95-a278-ca7b5f4bc533</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>560Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cb276a1-0b2a-413f-b437-67d56c6bc6d7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Arduino_port</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x31_P2.54mm_Vertical</footprint>
+      <libsource lib="My Schematic library" part="Arduino_port" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SensorNode_PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0aa4fa8-1af8-4c68-b584-bccddee4ba9b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Schematic library" part="Arduino_port">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">Arduino_port</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x31_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="3v3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_out"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="bidirectional"/>
+        <pin num="10" name="A1" type="bidirectional"/>
+        <pin num="11" name="A2" type="bidirectional"/>
+        <pin num="12" name="A3" type="bidirectional"/>
+        <pin num="13" name="A4" type="bidirectional"/>
+        <pin num="14" name="A5" type="bidirectional"/>
+        <pin num="15" name="RX" type="bidirectional"/>
+        <pin num="16" name="TX" type="bidirectional"/>
+        <pin num="17" name="D2" type="bidirectional"/>
+        <pin num="18" name="D3" type="bidirectional"/>
+        <pin num="19" name="D4" type="bidirectional"/>
+        <pin num="20" name="D5" type="bidirectional"/>
+        <pin num="21" name="D6" type="bidirectional"/>
+        <pin num="22" name="D7" type="bidirectional"/>
+        <pin num="23" name="D8" type="bidirectional"/>
+        <pin num="24" name="D9" type="bidirectional"/>
+        <pin num="25" name="D10" type="bidirectional"/>
+        <pin num="26" name="D11" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA" type="bidirectional"/>
+        <pin num="32" name="SCL" type="bidirectional"/>
+        <pin num="33" name="Pin_33" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Schematic library" part="LM35_Port">
+      <fields>
+        <field name="Reference">BodyT</field>
+        <field name="Value">LM35_Port</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="SIG" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Schematic library" part="LSM6DSOX">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM6DSOX</field>
+        <field name="Footprint">My_footprints_Library:LSM6DSOX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="3Vo" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="Do" type="input"/>
+        <pin num="7" name="CS" type="input"/>
+        <pin num="8" name="I1" type="input"/>
+        <pin num="9" name="I2" type="input"/>
+        <pin num="10" name="SCX" type="input"/>
+        <pin num="11" name="SDX" type="bidirectional"/>
+        <pin num="12" name="CS" type="input"/>
+        <pin num="13" name="D0" type="input"/>
+        <pin num="14" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Schematic library" part="PA1616S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PA1616S</field>
+        <field name="Footprint">My_footprints_Library:PA1616S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.3V" type="power_out"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="FIX" type="output"/>
+        <pin num="5" name="TX" type="output"/>
+        <pin num="6" name="RX" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="PPS" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Schematic library" part="P_trans_port">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">P_trans_port</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="SIG" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Schematic library" part="SEN-11574_Port">
+      <fields>
+        <field name="Reference">Pulse1</field>
+        <field name="Value">SEN-11574_Port</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="SIG" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="My Schematic library" part="eTape_Port">
+      <fields>
+        <field name="Reference">FluidL1</field>
+        <field name="Value">eTape_Port</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="no_connect"/>
+        <pin num="2" name="SIG" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="Pin_4" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="My Schematic library">
+      <uri>/Users/maryam/Documents/KiCad/6.0/symbols/My Schematic library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="Net-(Accelerometer1-Pad1)">
+      <node ref="Accelerometer1" pin="1" pinfunction="Vin" pintype="power_in"/>
+      <node ref="BodyT1" pin="1" pinfunction="Vin" pintype="power_in"/>
+      <node ref="FluidL1" pin="2" pinfunction="SIG" pintype="passive"/>
+      <node ref="GPS1" pin="8" pinfunction="VIN" pintype="power_in"/>
+      <node ref="Pressure1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="Pulse1" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="3" name="Net-(Accelerometer1-Pad3)">
+      <node ref="Accelerometer1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="BodyT1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="FluidL1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="GPS1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="Pressure1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="Pulse1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="4" name="Net-(Accelerometer1-Pad4)">
+      <node ref="Accelerometer1" pin="4" pinfunction="SCL" pintype="input"/>
+      <node ref="U1" pin="32" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(Accelerometer1-Pad5)">
+      <node ref="Accelerometer1" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U1" pin="31" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(BodyT1-Pad2)">
+      <node ref="BodyT1" pin="2" pinfunction="SIG" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(GPS1-Pad5)">
+      <node ref="GPS1" pin="5" pinfunction="TX" pintype="output"/>
+      <node ref="U1" pin="23" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(GPS1-Pad6)">
+      <node ref="GPS1" pin="6" pinfunction="RX" pintype="input"/>
+      <node ref="U1" pin="22" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(Pressure1-Pad2)">
+      <node ref="Pressure1" pin="2" pinfunction="SIG" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(Pulse1-Pad3)">
+      <node ref="Pulse1" pin="3" pinfunction="SIG" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="unconnected-(Accelerometer1-Pad2)">
+      <node ref="Accelerometer1" pin="2" pinfunction="3Vo" pintype="power_in+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(Accelerometer1-Pad6)">
+      <node ref="Accelerometer1" pin="6" pinfunction="Do" pintype="input+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(Accelerometer1-Pad7)">
+      <node ref="Accelerometer1" pin="7" pinfunction="CS" pintype="input+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(Accelerometer1-Pad8)">
+      <node ref="Accelerometer1" pin="8" pinfunction="I1" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(Accelerometer1-Pad9)">
+      <node ref="Accelerometer1" pin="9" pinfunction="I2" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(Accelerometer1-Pad10)">
+      <node ref="Accelerometer1" pin="10" pinfunction="SCX" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(Accelerometer1-Pad11)">
+      <node ref="Accelerometer1" pin="11" pinfunction="SDX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(Accelerometer1-Pad12)">
+      <node ref="Accelerometer1" pin="12" pinfunction="CS" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(Accelerometer1-Pad13)">
+      <node ref="Accelerometer1" pin="13" pinfunction="D0" pintype="input+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(Accelerometer1-Pad14)">
+      <node ref="Accelerometer1" pin="14" pinfunction="GND" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(FluidL1-Pad1)">
+      <node ref="FluidL1" pin="1" pinfunction="Pin_1" pintype="no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(FluidL1-Pad4)">
+      <node ref="FluidL1" pin="4" pinfunction="Pin_4" pintype="no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(GPS1-Pad1)">
+      <node ref="GPS1" pin="1" pinfunction="3.3V" pintype="power_out+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(GPS1-Pad2)">
+      <node ref="GPS1" pin="2" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(GPS1-Pad3)">
+      <node ref="GPS1" pin="3" pinfunction="VBAT" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(GPS1-Pad4)">
+      <node ref="GPS1" pin="4" pinfunction="FIX" pintype="output+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(GPS1-Pad9)">
+      <node ref="GPS1" pin="9" pinfunction="PPS" pintype="output+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="IOREF" pintype="output+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="RESET" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="3v3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="D5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="D6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="D11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="D12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="D13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Pad29)">
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-Pad33)">
+      <node ref="U1" pin="33" pinfunction="Pin_33" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
