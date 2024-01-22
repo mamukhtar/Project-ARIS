@@ -47,6 +47,8 @@ This README provides an overview of the components and programs included in this
 
 Please refer to the individual program files for more detailed information, including specific setup instructions, dependencies, and usage guidelines.
 
+The GitHub repository currently lacks detailed documentation on the electronics and sensors information (the sensor hub portion), which is essential to collect the sensor data.
+
 Feel free to explore and utilize these programs according to your project requirements. If you have any questions or encounter any issues, please don't hesitate to reach out to us.
 
 Enjoy working with the system!
